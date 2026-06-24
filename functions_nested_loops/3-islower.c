@@ -1,5 +1,6 @@
 /**
-* islower(int c) - writes a function that checks for lowercase character
+* islower - checks for lowercase character
+* @c: the character to check
 *
 * Return: 1 if lowercase, 0 otherwise
 */
