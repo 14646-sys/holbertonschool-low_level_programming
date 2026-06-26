@@ -5,7 +5,7 @@
 */
 void times_table(void)
 {
-	int table, table_count, result;
+    int table, table_count, result;
 
     for (table = 0; table <= 9; table++)
     {
