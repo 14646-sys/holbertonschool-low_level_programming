@@ -5,28 +5,30 @@
 *
 * Return: value
 */
-void print_to_98(int n);
+void print_to_98(int n)
+{
+	for (; n < 99; n++)
+	{
+		if (n == 98)
+		{
+			printf("%d", n);
+		}
+		else
+		{
+			printf("%d, ", n);
+		}
+	}
 
-for (; n < 99; n++)
-{
-    if (n == 98)
-    {
-        printf("%d", n);
-    }
-    else
-    {
-        printf("%d, ", n)
-    }
+	for (; n > 97; n--)
+	{
+		if (n == 98)
+		{
+			printf("%d", n);
+		}
+		else
+		{
+			printf("%d, ", n)
+		}
+	}
+	printf(\n;)
 }
-for (; n > 97; n--)
-{
-    if (n == 98)
-    {
-        printf("%d", n);
-    }
-    else
-    {
-        printf("%d, ", n)
-    }
-}
-printf(\n;)
