@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
 * print_to_98 - prints all integers from n to 98, followed by a new line.
-*
+* @n: number to work with
 * Return: value
 */
 void print_to_98(int n)
